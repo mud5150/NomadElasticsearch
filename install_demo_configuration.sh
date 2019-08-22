@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Will need to add this to config
+# action.auto_create_index: .monitoring*,.watches,.triggered_watches,.watcher-history*,.ml*,security-auditlog,.opendistro_security
+
 # Install opendistro alerting plugin
 bin/elasticsearch-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-plugins/opendistro-alerting/opendistro_alerting-1.1.0.0.zip
 
