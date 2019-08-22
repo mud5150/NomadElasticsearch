@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# install elastic security plugin
+# Install opendistro alerting plugin
+bin/elasticsearch-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-plugins/opendistro-alerting/opendistro_alerting-1.1.0.0.zip
+
+# install opendistro security plugin
 # plugin is version specific. Will need to add a table to track
 sudo bin/elasticsearch-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-plugins/opendistro-security/opendistro_security-1.1.0.0.zip
 
